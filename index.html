@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudyDeck</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="sidebar">
+  <h1>📚 StudyDeck</h1>
+
+  <button>Dashboard</button>
+  <button>Flashcards</button>
+  <button>Study Stats</button>
+  <button onclick="location.href='pages/settings.html'">
+    Settings
+  </button>
+</div>
+
+<div class="main-content">
+
+  <div class="top-bar">
+    <h2>Welcome back 👋</h2>
+    <p>Ready to study?</p>
+  </div>
+
+  <div class="subject-grid">
+
+    <div class="subject-card">
+      <h3>📘 Math</h3>
+      <p>Algebra, Geometry, Calculus</p>
+    </div>
+
+    <div class="subject-card">
+      <h3>🧪 Science</h3>
+      <p>Biology, Chemistry, Physics</p>
+    </div>
+
+    <div class="subject-card">
+      <h3>📜 History</h3>
+      <p>Events, wars, timelines</p>
+    </div>
+
+    <div class="subject-card">
+      <h3>💻 Programming</h3>
+      <p>Python, JS, Linux, C++</p>
+    </div>
+
+    <div class="subject-card">
+      <h3>📝 English</h3>
+      <p>Grammar, vocab, literature</p>
+    </div>
+
+    <div class="subject-card add-card">
+      <h3>➕ Custom Subject</h3>
+    </div>
+
+  </div>
+
+  <div class="stats">
+    <h3>Study Progress</h3>
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+    <p>42% complete</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
